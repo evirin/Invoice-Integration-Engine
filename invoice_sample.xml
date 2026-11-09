@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+    <Header>
+        <InvoiceID>INV-2026-0042</InvoiceID>
+        <IssueDate>2026-11-09</IssueDate>
+        <IssuerAFM>094014201</IssuerAFM>
+        <CustomerAFM>090000045</CustomerAFM>
+        <Currency>EUR</Currency>
+        <TotalNetAmount>250.00</TotalNetAmount>
+        <TotalVatAmount>60.00</TotalVatAmount>
+        <TotalGrossAmount>310.00</TotalGrossAmount>
+    </Header>
+    <Lines>
+        <Line>
+            <LineNumber>1</LineNumber>
+            <ItemCode>ITM-CONSULT-01</ItemCode>
+            <Quantity>10.0</Quantity>
+            <UnitPrice>20.00</UnitPrice>
+            <NetAmount>200.00</NetAmount>
+            <VatRate>24.0</VatRate>
+            <VatAmount>48.00</VatAmount>
+        </Line>
+        <Line>
+            <LineNumber>2</LineNumber>
+            <ItemCode>ITM-LICENSE-STD</ItemCode>
+            <Quantity>1.0</Quantity>
+            <UnitPrice>50.00</UnitPrice>
+            <NetAmount>50.00</NetAmount>
+            <VatRate>24.0</VatRate>
+            <VatAmount>12.00</VatAmount>
+        </Line>
+    </Lines>
+</Invoice>
